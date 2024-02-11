@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Lexend+Deca:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;800&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <title>Frontend Mentor | Order summary card</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/responsivo.css">
-  <title>Frontend Mentor | Order summary card</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="card">
+      <img src="images/illustration-hero.svg" alt="" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      
+        <h2>Order Summary</h2>
 
-</head>
-<body>
-  <div class="card">
-    <img src="images/illustration-hero.svg" alt="">
-   
-   <h2> Order Summary</h2>
+        <div class="descriptopn">
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
 
-    <p>
-      You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!
-    </p>
-  
-  <div>
-    <div>
-      Annual Plan
-      $59.99/year
+        <div class="plan_card">
+          <div class="music_icon">
+            <img src="images/icon-music.svg" alt="">
+          </div>
+
+          <div class="plan">
+            <p class="plan_annual">Annual Plan</p>
+            <p class="plan_price"> $59.99/year</p>
+          </div>
+
+          <div class="change">
+            <a href="#">Change</a>
+          </div>
+        </div>
+
+        <div class="pay">
+          <button>Proceed to Payment</button>
+          <p>Cancel Order</p>
+        </div>
     </div>
-    <div>
-      <p>Change</p>
-    </div>
-  </div>
-  
-    <div>
-      <button>Proceed to Payment</button>
-      <p>Cancel Order</p>
-    </div>
-  </div>
-
-  
-
-</body>
+  </body>
 </html>
